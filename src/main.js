@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 
 Vue.config.productionTip = false
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.css'
 
+Vue.use(Vuetify)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
